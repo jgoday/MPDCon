@@ -1,0 +1,4 @@
+MPDCon originally written by : Daniel Luederwald
+Forked from : http://ftp.debian.org/debian/pool/main/m/mpdcon.app/mpdcon.app_1.1.99.orig.tar.gz
+Just some little changes to avoid chrashes using GNUstep trunk and clang
+
