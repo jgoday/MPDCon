@@ -1,0 +1,247 @@
+2004-06-14  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* OwnTableView.m, FindController.m: Code Reformatting
+
+	* CrossfadeController.m, CollectionController.m, AppController.m:
+	Reformatted Code
+
+2004-06-13  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* FindController.m, CollectionController.m, CollectionController.h:
+	*** empty log message ***
+
+	* AppController.m, AppController.h: Implemented getAlbums service
+
+	* FindController.m, FindController.h, CrossfadeController.m, CrossfadeController.h, CollectionController.m, CollectionController.h, MPDController.m, MPDController.h:
+	Refactoring
+
+	* PlaylistController.m, PlaylistController.h: More Refactoring
+
+	* PlayView.m, PlayView.h: Refactoring
+
+	* AppController.h: *** empty log message ***
+
+	* AppController.h, AppController.m: More Refactoring
+
+2004-06-12  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* OwnPanel.h, OwnPanel.m: *** empty log message ***
+
+	* OwnPanel.h, OwnPanel.m: New file.
+
+2004-06-04  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* FindController.m, FindController.h, AppController.m: Bugfix
+
+	* AppController.m: *** empty log message ***
+
+	* PlaylistsManagerController.m: Begin of localization
+
+	* PlaylistController.m: *** empty log message ***
+
+	* PlayView.m, MPDController.m, FindController.m, AppController.m:
+	Begin of localization
+
+	* Strings.h: New file.
+
+	* StatisticsController.h, PreferencesController.h, PlaylistsManagerController.h, PlaylistController.h, PlayView.h, OwnTableView.h, MPDController.h, FindController.h, CrossfadeController.h, CollectionController.h:
+	*** empty log message ***
+
+	* AppController.h: Service Method
+
+	* StatisticsController.m, PreferencesController.m, PlaylistsManagerController.m, PlaylistController.m, PlayView.m, MPDController.m, FindController.m:
+	*** empty log message ***
+
+	* CollectionController.m: Find Capability
+
+	* AppController.m: Service Method
+
+2004-06-02  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* AppController.m, FindController.m: *** empty log message ***
+
+	* FindController.h, AppController.h, FindController.m, AppController.m:
+	Refactoring
+
+	* CollectionController.m, FindController.m, FindController.h, AppController.m, CollectionController.h, PlaylistController.h:
+	*** empty log message ***
+
+	* CollectionController.h, PlaylistController.m: Find Capability
+
+	* CollectionController.m: Find Capabilities
+
+	* FindController.h, FindController.m: *** empty log message ***
+
+2004-06-01  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* CollectionController.m: *** empty log message ***
+
+	* CollectionController.m, PlaylistController.m, CollectionController.h:
+	Implemented Find Capabilities
+
+	* PlaylistController.h: *** empty log message ***
+
+	* PlaylistController.h: Implemented Find Capabilities
+
+	* FindController.h: *** empty log message ***
+
+	* AppController.h, AppController.m: Added Find Capabilities
+
+	* FindController.m, FindController.h: New file.
+
+2004-05-30  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* PlaylistController.m: Highlight moved Song
+
+	* OwnTableView.h: Bugfix
+
+	* OwnTableView.h, OwnTableView.m: New file.
+
+2004-05-27  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* PlaylistController.m: *** empty log message ***
+
+	* PreferencesController.h: Minor Bugfix
+
+	* MPDController.m: More Refactoring
+
+2004-05-26  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* MPDController.m: Bugfix
+
+	* MPDController.h, MPDController.m, PlaylistController.m, PlaylistController.h, PlayView.m, PlayView.h, AppController.m:
+	Refactoring
+
+	* AppController.h, PreferencesController.h: *** empty log message ***
+
+	* PreferencesController.m: Refactoring
+
+	* PlaylistItem.h: *** empty log message ***
+
+	* PlaylistItem.m: Refactoring
+
+	* CollectionController.h: *** empty log message ***
+
+	* CollectionController.m, PlaylistsManagerController.h, PlaylistsManagerController.m:
+	Refactoring
+
+	* StatisticsController.h: *** empty log message ***
+
+	* StatisticsController.m: Refactoring
+
+	* StatisticsItem.h: *** empty log message ***
+
+	* StatisticsItem.m: Refactoring
+
+	* CrossfadeController.h: *** empty log message ***
+
+	* CrossfadeController.m, AppController.m: Refactoring
+
+2004-05-22  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* MPDController.h, MPDController.m:
+	Refactoring + Handling of missing Tags
+
+	* CrossfadeController.m: *** empty log message ***
+
+	* PreferencesController.m: Bugfix
+
+	* AppController.m: *** empty log message ***
+
+2004-05-21  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* AppController.m, AppController.h: *** empty log message ***
+
+	* AppController.m, AppController.h:
+	Remember PlayerWindow screen-location
+
+	* PlayView.h, PlayView.m: More Refactoring + Bugfix
+
+2004-05-20  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* PlayView.m: Modified Scrolling
+
+	* AppController.m, AppController.h, CrossfadeController.h, StatisticsItem.h:
+	Refactoring
+
+	* StatisticsController.h: *** empty log message ***
+
+	* StatisticsController.m, StatisticsController.h: Refactoring
+
+	* PlaylistsManagerController.m, PlaylistsManagerController.h, CollectionController.m, CollectionController.h:
+	*** empty log message ***
+
+	* PlaylistsManagerController.m: Refactoring
+
+	* PlaylistsManagerController.h: *** empty log message ***
+
+	* PlaylistsManagerController.h: Refactoring
+
+2004-05-19  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* CollectionController.m, CollectionController.h, PlaylistItem.h, PlayView.h, PlayView.m:
+	Refactoring
+
+	* PreferencesController.m: Refactoring + Bugfix
+
+	* PreferencesController.h: Bugfix
+
+	* PreferencesController.h, PlaylistController.m, PlaylistController.h, MPDController.h, MPDController.m:
+	Refactoring
+
+	* CrossfadeController.h: New file.
+
+	* MPDController.h, AppController.h, AppController.m, MPDController.m:
+	Implemented Crossfade
+
+	* CrossfadeController.m: New file.
+
+	* AppController.h, AppController.m: *** empty log message ***
+
+	* MPDController.h: Passwords for MPD implemented
+	Error Handling
+
+	* AppController.h: *** empty log message ***
+
+	* PreferencesController.h: Passwords for MPD implemented
+
+	* StatisticsController.m, CollectionController.m:
+	*** empty log message ***
+
+	* MPDController.m: Passwords for MPD implemented
+	Error Handling
+
+	* PreferencesController.m, AppController.m:
+	Passwords for MPD implemented
+
+2004-05-18  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* MPDController.h, PlaylistController.m, PlaylistController.h:
+	Implemented ShuffleList
+
+	* PreferencesController.m: *** empty log message ***
+
+	* AppController.m, AppController.h:
+	Try to connect to Server if Preferences changed.
+
+	* MPDController.m: Fixed Server-Errors
+
+	* PreferencesController.m: *** empty log message ***
+
+	* AppController.m, AppController.h: Fixed Server-Errors
+
+	* StatisticsItem.h, StatisticsController.h: New file.
+
+	* MPDController.h, AppController.h: Added Server-Statistics
+
+2004-05-17  Daniel Luederwald  <flip@Confusion.CabalOfEntropy.local>
+
+	* StatisticsItem.m, StatisticsController.m: New file.
+
+	* MPDController.m, AppController.m: Added Server-Statistics
+
+	* AppController.m: *** empty log message ***
+
+	* PlaylistsManagerController.h, CollectionController.h, PlaylistItem.h, MPDController.h, PlaylistController.h, libmpdclient.h, PlayView.h, PreferencesController.h, AppController.h, PlaylistsManagerController.m, CollectionController.m, MPDController.m, PlaylistItem.m, PlaylistController.m, PlayView.m, PreferencesController.m, AppController.m:
+	New file.
+

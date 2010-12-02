@@ -1,0 +1,17 @@
+{
+    ApplicationDescription = "GNUstep Client for MPD";
+    ApplicationIcon = MPDCon.tiff;
+    ApplicationName = MPDCon;
+    ApplicationRelease = 1.1.99;
+    Authors = (
+	"Daniel Luederwald <das_flip@gmx.de>"
+    );
+    Copyright = "Copyright (C) 2004-06 Daniel Luederwald";
+    CopyrightDescription = "Released under the GNU General Public License 2.0";
+    FullVersionID = 1.1.99;
+    NSExecutable = MPDCon;
+    NSIcon = MPDCon.tiff;
+    NSMainNibFile = Player.gorm;
+    NSPrincipalClass = NSApplication;
+    NSRole = Application;
+}

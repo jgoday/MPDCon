@@ -1,0 +1,44 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    BoldCell = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSTextFieldCell;
+    };
+    CollectionController = {
+	Actions = (
+	    "addSelected:",
+	    "updateCollection:",
+	    "selectionChanged:",
+	    "doubleClicked:",
+	    "filterCollection:",
+	    "clearFilter:"
+	);
+	Outlets = (
+	    collectionView,
+	    trackView,
+	    filterField
+	);
+	Super = NSWindowController;
+    };
+    FirstResponder = {
+	Actions = (
+	    "addSelected:",
+	    "doubleClicked:",
+	    "filterCollection:",
+	    "clearFilter:",
+	    "selectionChanged:",
+	    "updateCollection:"
+	);
+	Super = NSObject;
+    };
+    OwnTableView = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSTableView;
+    };
+}

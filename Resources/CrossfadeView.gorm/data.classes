@@ -1,0 +1,23 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    CrossfadeController = {
+	Actions = (
+	    "valueChanged:",
+	    "apply:",
+	    "revert:"
+	);
+	Outlets = (
+	    valueField,
+	    valueStepper
+	);
+	Super = NSWindowController;
+    };
+    FirstResponder = {
+	Actions = (
+	    "valueChanged:",
+	    "apply:",
+	    "revert:"
+	);
+	Super = NSObject;
+    };
+}

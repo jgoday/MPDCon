@@ -1,0 +1,27 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "apply:",
+	    "revert:",
+	    "usePasswordChanged:"
+	);
+	Super = NSObject;
+    };
+    PreferencesController = {
+	Actions = (
+	    "apply:",
+	    "revert:",
+	    "usePasswordChanged:"
+	);
+	Outlets = (
+	    mpdHost,
+	    mpdPort,
+	    password,
+	    scrollSwitch,
+	    usePassword,
+	    colorWell
+	);
+	Super = NSWindowController;
+    };
+}

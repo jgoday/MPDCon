@@ -1,0 +1,26 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "closeWindow:",
+	    "updateStatistics:"
+	);
+	Super = NSObject;
+    };
+    StatisticsController = {
+	Actions = (
+	    "closeWindow:",
+	    "updateStatistics:"
+	);
+	Outlets = (
+	    songs,
+	    artists,
+	    albums,
+	    uptime,
+	    playtime,
+	    dbPlaytime,
+	    dbUpdatetime
+	);
+	Super = NSWindowController;
+    };
+}

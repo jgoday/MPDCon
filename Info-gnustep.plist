@@ -1,0 +1,40 @@
+{
+    ApplicationDescription = "GNUstep Client for MPD";
+    ApplicationIcon = MPDCon.tiff;
+    ApplicationName = MPDCon;
+    ApplicationRelease = 1.1;
+    Authors = (
+	"Daniel Luederwald <das_flip@gmx.de>"
+    );
+    Copyright = "Copyright (C) 2004 Daniel Luederwald";
+    CopyrightDescription = "Released under the GNU General Public License 2.0";
+    FullVersionID = 1.1;
+    NSExecutable = MPDCon;
+    NSIcon = MPDCon.tiff;
+    NSMainNibFile = Player.gorm;
+    NSPrincipalClass = NSApplication;
+    NSRole = Application;
+    NSTypes = (
+    );
+    NSServices = (
+	{
+	  NSPortName = MPDCon;
+	  NSMessage = getPlaylist;
+	  NSMenuItem = {
+		default = "MPDCon/Get Playlist";
+		English = "MPDCon/Get Playlist";
+	  };
+	  NSReturnTypes = (NSStringPboardType);
+	},
+	{
+	  NSPortName = MPDCon;
+	  NSMessage = getAlbums;
+	  NSMenuItem = {
+		default = "MPDCon/Get Albums";
+		English = "MPDCon/Get Albums";
+	  };
+	  NSReturnTypes = (NSStringPboardType);
+	}
+    );
+
+}

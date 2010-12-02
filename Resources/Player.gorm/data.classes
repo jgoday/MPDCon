@@ -1,0 +1,56 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    AppController = {
+	Actions = (
+	    "play:",
+	    "stop:",
+	    "prev:",
+	    "next:",
+	    "shuffle:",
+	    "repeat:",
+	    "percentChanged:",
+	    "volumeChanged:",
+	    "showPrefPanel:",
+	    "managePlaylists:",
+	    "connect:",
+	    "browseCollection:",
+	    "serverStatistics:",
+	    "showPlaylist:",
+	    "updateCollection:",
+	    "showCrossfade:"
+	);
+	Outlets = (
+	    playButton,
+	    stopButton,
+	    prevButton,
+	    nextButton,
+	    shuffleButton,
+	    repeatButton,
+	    playView,
+	    percentSlider,
+	    volumeSlider,
+	    playerButton,
+	    window,
+	    statisticsItem,
+	    browseItem,
+	    updateItem,
+	    showItem,
+	    manageItem
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "setText:"
+	);
+	Super = NSObject;
+    };
+    PlayView = {
+	Actions = (
+	    "setText:"
+	);
+	Outlets = (
+	);
+	Super = NSView;
+    };
+}

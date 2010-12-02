@@ -1,0 +1,32 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "updateLists:",
+	    "loadList:",
+	    "saveList:",
+	    "removeList:"
+	);
+	Super = NSObject;
+    };
+    OwnTableView = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSTableView;
+    };
+    PlaylistsManagerController = {
+	Actions = (
+	    "updateLists:",
+	    "loadList:",
+	    "saveList:",
+	    "removeList:"
+	);
+	Outlets = (
+	    listView,
+	    saveField
+	);
+	Super = NSWindowController;
+    };
+}

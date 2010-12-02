@@ -1,0 +1,137 @@
+{
+    APPLICATIONICON = MPDCon.tiff;
+    APP_DOCUMENT_BASED = NO;
+    BUILDTOOL = "/usr/local/bin/gmake";
+    CLASS_FILES = (
+	AppController.m,
+	PreferencesController.m,
+	PlayView.m,
+	PlaylistController.m,
+	MPDController.m,
+	PlaylistItem.m,
+	CollectionController.m,
+	PlaylistsManagerController.m,
+	StatisticsController.m,
+	StatisticsItem.m,
+	CrossfadeController.m,
+	OwnTableView.m,
+	BoldCell.m,
+	BoldFormatter.m,
+	NormalFormatter.m
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    CREATION_DATE = "2004-05-12 17:59:14 +0200";
+    DOCU_FILES = (
+	Install,
+	COPYING,
+	TODO.txt
+    );
+    FRAMEWORKS = (
+    );
+    HEADER_FILES = (
+	AppController.h,
+	PreferencesController.h,
+	PlayView.h,
+	libmpdclient.h,
+	PlaylistController.h,
+	MPDController.h,
+	PlaylistItem.h,
+	CollectionController.h,
+	PlaylistsManagerController.h,
+	StatisticsController.h,
+	StatisticsItem.h,
+	CrossfadeController.h,
+	OwnTableView.h,
+	Strings.h,
+	BoldCell.h,
+	BoldFormatter.h,
+	NormalFormatter.h
+    );
+    IMAGES = (
+	Play.tiff,
+	Pause.tiff,
+	Next.tiff,
+	Prev.tiff,
+	Stop.tiff,
+	GNUstep.tiff,
+	Repeat.tiff,
+	Shuffle.tiff,
+	Playlist.tiff,
+	Crossfade.tiff,
+	MPDCon.tiff,
+	MoveSong.tiff,
+	Current.tiff
+    );
+    INSTALLDIR = "$(HOME)";
+    INTERFACES = (
+	Player.gorm,
+	Preferences.gorm,
+	PlaylistViewer.gorm,
+	Collection.gorm,
+	PlaylistsManager.gorm,
+	StatisticsViewer.gorm,
+	CrossfadeView.gorm
+    );
+    LANGUAGE = English;
+    LAST_EDITING = "2006-03-13 23:19:37 +0100";
+    LIBRARIES = (
+	"gnustep-base",
+	"gnustep-gui"
+    );
+    LINKEROPTIONS = "";
+    LOCALIZED_RESOURCES = (
+    );
+    MAININTERFACE = Player.gorm;
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    OBJC_COMPILEROPTIONS = "";
+    OTHER_FILES = (
+    );
+    OTHER_RESOURCES = (
+	"Info-gnustep.plist"
+    );
+    OTHER_SOURCES = (
+	main.m,
+	libmpdclient.c
+    );
+    PC_WINDOWS = {
+	ProjectWindow = "389 325 736 621 0 0  1280 1024 ";
+	ShowToolbar = YES;
+    };
+    PRINCIPAL_CLASS = NSApplication;
+    PROJECT_AUTHORS = (
+	"Daniel Luederwald <das_flip@gmx.de>"
+    );
+    PROJECT_COPYRIGHT = "Copyright (C) 2004-06 Daniel Luederwald";
+    PROJECT_COPYRIGHT_DESC = "Released under the GNU General Public License 2.0";
+    PROJECT_CREATOR = "Daniel Luederwald";
+    PROJECT_DESCRIPTION = "GNUstep Client for MPD";
+    PROJECT_DOCUMENTEXTENSIONS = (
+    );
+    PROJECT_DOCUMENTTYPES = (
+    );
+    PROJECT_GROUP = "No group avaliable!";
+    PROJECT_MAINTAINER = "Daniel Luederwald";
+    PROJECT_NAME = MPDCon;
+    PROJECT_RELEASE = 1.1.99;
+    PROJECT_SOURCE = "%{gs_name}-%{gs_version}.tar.gz";
+    PROJECT_SUMMARY = "No summary avaliable!";
+    PROJECT_TYPE = Application;
+    PROJECT_URL = "";
+    PROJECT_VERSION = 0.1;
+    SEARCH_HEADER_DIRS = (
+    );
+    SEARCH_LIB_DIRS = (
+    );
+    SUBPROJECTS = (
+    );
+    SUPPORTING_FILES = (
+	GNUmakefile.preamble,
+	GNUmakefile,
+	GNUmakefile.postamble
+    );
+    USER_LANGUAGES = (
+	AmericanEnglish,
+	English
+    );
+}

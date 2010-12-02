@@ -1,0 +1,50 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    BoldCell = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSTextFieldCell;
+    };
+    FirstResponder = {
+	Actions = (
+	    "browseCollection:",
+	    "doubleClick:",
+	    "filterList:",
+	    "managePlaylists:",
+	    "clearFilter:",
+	    "removeSongs:",
+	    "showCurrentSong:",
+	    "shuffleList:"
+	);
+	Super = NSObject;
+    };
+    OwnTableView = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSTableView;
+    };
+    PlaylistController = {
+	Actions = (
+	    "doubleClick:",
+	    "showCurrentSong:",
+	    "managePlaylists:",
+	    "removeSongs:",
+	    "browseCollection:",
+	    "shuffleList:",
+	    "filterList:",
+	    "clearFilter:"
+	);
+	Outlets = (
+	    playlistTable,
+	    lengthView,
+	    playlistSelector,
+	    removeSelector,
+	    filterField
+	);
+	Super = NSWindowController;
+    };
+}
