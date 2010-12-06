@@ -42,6 +42,10 @@
 - (void) _drawTime;
 @end
 
+@interface NSColor (Inverse)
+- (NSColor *) inverse;
+@end
+
 @implementation PlayView
 
 /* --------------------------
@@ -73,7 +77,7 @@
   NSRect myBounds;
   NSData *colorData;
   NSColor *displayColor;
-  
+
   if (! notificationAdded) 
     {
       notificationAdded = YES;
@@ -89,9 +93,9 @@
 	       name: PreferencesChangedNotification
              object: nil];
     }
-  
+
   colorData = [[NSUserDefaults standardUserDefaults] dataForKey: @"displayColor"];
-  
+
   if (! colorData)
     {
       displayColor = [NSColor grayColor];
@@ -100,18 +104,23 @@
     {
       displayColor = [NSUnarchiver unarchiveObjectWithData: colorData];
     }
-    
+
+  // if displayColor is equal to background color (black)
+  // we set the inverse
+  if ([[NSColor blackColor] isEqual: displayColor]) {
+    displayColor = [displayColor inverse];
+  }
+
   [displayColor set];
-  
 
   myBounds = [self bounds];
   [NSBezierPath fillRect: myBounds];
   [[NSColor blackColor] set];
-  
+
   NSRect strokeRect = NSMakeRect(myBounds.origin.x, myBounds.origin.y+1, myBounds.size.width-1, myBounds.size.height-1);
   [NSBezierPath strokeRect: strokeRect];
 
-  if (displayEnabled) 
+  if (displayEnabled)
     {
       [self _drawTrack];
       [self _drawArtist];
@@ -457,4 +466,20 @@
     }
   return nil;
 }*/
+@end
+
+@implementation NSColor (Inverse)
+- (NSColor *) inverse
+{
+    if ([@"NSCalibratedWhiteColorSpace" isEqual: [self colorSpaceName]]) {
+        float inversedColor = 1 - ( 1 /
+            [self whiteComponent] > 0 ? [self whiteComponent] : 1 );
+        return [NSColor colorWithCalibratedWhite: inversedColor
+                                           alpha: [self alphaComponent]];
+    }
+    else {
+        return self;
+    }
+}
+
 @end
